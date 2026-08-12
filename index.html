@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- style.css -->
+    
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- toggle btn -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <!-- typed.js for the animated role text -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class = "container">
+        <header>
+            <div class="logo">
+                <div class="logo-text"><i class="fa-solid fa-m" style="color: #007ced;"></i>ohit</div>
+            </div>
+            <nav>
+                <ul class="navlinks">
+                    <li><a href="#home" class="hide-on-mobile"><span>Home</span></a></li>
+                    <li><a href="#about" class="hide-on-mobile"><span>About</span></a></li>
+                    <li><a href="#skills" class="hide-on-mobile"><span>Skills</span></a></li>
+                    <li><a href="#projects" class="hide-on-mobile"><span>Projects</span></a></li>
+                    <li><a href="#achievements" class="hide-on-mobile"><span>Achievements</span></a></li>
+                    <li><a href="#contact" class="hide-on-mobile"><span>Contact</span></a></li>
+                    <li><a href="#" class="menu"><span class="material-symbols-outlined ">menu</span></a></li>
+                </ul>
+                <ul class="sidebar">
+                    <li><a href="#" class="close-menu"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li><a href="#home"><span>Home</span></a></li>
+                    <li><a href="#about"><span>About</span></a></li>
+                    <li><a href="#skills"><span>Skills</span></a></li>
+                    <li><a href="#projects"><span>Projects</span></a></li>
+                    <li><a href="#achievements"><span>Achievements</span></a></li>
+                    <li><a href="#contact"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="container content" id="home">
+        <div class="pic-wrap">
+            <div class="pic">
+                <img src="/images/profilePic.jpeg" alt="Mohit Kumar profile picture">
+            </div>
+        </div>
+        <div class="container text">
+            <h5>Hi! I'm a <span id="typed-role"></span></h5>
+            <h2>Mohit Kumar</h2>
+            <p>
+                Software Engineer skilled in MERN Stack, Java, and AI-powered application development. 
+                I build scalable, intelligent, production-ready software solutions—with recent hands-on experience engineering end-to-end Retrieval-Augmented Generation (RAG) systems.
+            </p>          
+            <div class="btn-group">
+                <a href="https://drive.google.com/file/d/1_k4XRnUH_FoJ__zfCRaso73qviL_gx48/view?usp=sharing" class="btn active">Download Resume</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/conqueror5135/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mohit-kumar-774489366/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/MOHIT5135"><i class="fa-brands fa-github"></i></a>
+                <a href="https://leetcode.com/u/zuntB2xyPB/"><i class="fa-brands fa-leetcode"></i></a>
+            </div>
+        </div>  
+    </div>
+    <!-- ===================== About ===================== -->
+    <section class="container section" id="about">
+        <div class="section-head">
+            <span class="section-eyebrow">Get to know me</span>
+            <h2 class="section-title">About</h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-card">
+                <h3><i class="fa-solid fa-user"></i> Bio</h3>
+                <p>
+                    I'm a final-year BTech CSE student graduating in 2027, based in Alwar, Rajasthan, India. I like turning ideas into working products — most recently a full-stack RAG application built around a hybrid dense + keyword retrieval pipeline. I'm detail-oriented and persistent, the kind of person who sticks with a problem until it's actually solved, not just patched over. I enjoy owning a project end to end — architecture, backend logic, and deployment — and I'm currently looking for an SDE internship where I can bring that same hands-on approach to a real team.
+                </p>
+            </div>
+            <div class="about-card">
+                
+                <h3><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                <div class="about-item">
+                    <h4>Summer Intern &mdash; DevOps &amp; Cloud Computing</h4>
+                    <p class="about-sub">June 2025 &ndash; Aug 2025 | Upflairs Pvt. Ltd.</p>
+                    <p>Completed a comprehensive 45-day internship focused on Cloud Computing architectures and CI/CD methodologies. Gained hands-on practical experience with AWS, Docker, and Linux environments.</p>
+                </div>
+                <div class="about-item">
+                    <h4>Frontend Developer &mdash; Smart India Hackathon</h4>
+                    <p class="about-sub">July 2024</p>
+                    <p>Collaborated in a fast-paced, 3-day hackathon environment to engineer a full-stack health prediction web application. Spearheaded the frontend development using HTML5, CSS3, and JavaScript, ensuring seamless integration with a Python Flask backend.</p>
+                </div>
+                <!-- internships -->
+                
+            </div>
+            <div class="about-card">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                <div class="about-item">
+                    <h4>B.Tech, Computer Science &amp; Engineering</h4>
+                    <p class="about-sub">Graduation: July 2027 | CGPA: 8.64/10</p>
+                    <p>Laxmi Devi Institute of Engineering &amp; Technology. Strong foundation in Data Structures &amp; Algorithms, OOP, DBMS, and REST APIs.</p>
+                </div>
+                <div class="about-item">
+                    <h4>Japanese Language Study</h4>
+                    <p class="about-sub">JLPT N3 &mdash; July 2026</p>
+                    <p>Studying Japanese toward a career goal of working as a developer in Japan; targeting
+                        N2 in 2027.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Skills ===================== -->
+    <section class="container section" id="skills">
+        <div class="section-head">
+            <span class="section-eyebrow">What I work with</span>
+            <h2 class="section-title">Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-solid fa-code"></i>
+                <h3>Languages</h3>
+                <div class="tag-group">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">Python</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-display"></i>
+                <h3>Frontend</h3>
+                <div class="tag-group">
+                    <span class="tag">React</span>
+                    <span class="tag">Vite</span>
+                    <span class="tag">Tailwind CSS</span>
+                    <span class="tag">HTML / CSS</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-server"></i>
+                <h3>Backend</h3>
+                <div class="tag-group">
+                    <span class="tag">Node.js</span>
+                    <span class="tag">Express.js</span>
+                    <span class="tag">REST APIs</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database</h3>
+                <div class="tag-group">
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">mySQL</span>
+                    <span class="tag">MongoDB Atlas Vector Search</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-robot"></i>
+                <h3>AI / ML</h3>
+                <div class="tag-group">
+                    <span class="tag">Google Gemini API</span>
+                    <span class="tag">RAG Pipelines</span>
+                    <span class="tag">Embeddings</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-toolbox"></i>
+                <h3>Tools &amp; Platforms</h3>
+                <div class="tag-group">
+                    <span class="tag">Git / GitHub</span>
+                    <span class="tag">Render</span>
+                    <span class="tag">Netlify</span>
+                    <span class="tag">Postman</span>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-cloud"></i>
+                <h3>Cloud &amp; DevOps</h3>
+                <div class="tag-group">
+                    <span class="tag">AWS</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">Linux</span>
+                    <span class="tag">CI/CD</span>
+                    <span class="tag">GitHub Actions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== Projects ===================== -->
+    <section class="container section" id="projects">
+        <div class="section-head">
+            <span class="section-eyebrow">Things I've built</span>
+            <h2 class="section-title">Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <!-- img -->
+                <img src="/images/ragify.png">
+                <div class="project-body">
+                    <h3>RAGify AI</h3>
+                    <p>
+                        Built a full-stack RAG platform enabling secure multi-user chat with PDF, DOCX, PPT, and TXT documents. 
+                        Optimized the retrieval pipeline with parallel hybrid search, adaptive Top-K, and MMR re-ranking, 
+                        cutting worst-case latency from 11.7s to 3.4s. 
+                        Integrated Server-Sent Events (SSE) to stream responses token-by-token, further reducing round-trip latency to 2.4s.
+                    </p>
+                    <div class="tag-group">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js / Express</span>
+                        <span class="tag">MongoDB Atlas Vector Search</span>
+                        <span class="tag">Google Gemini</span>
+                        <span class="tag">Docker</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://ragifyy.netlify.app/" class="btn active">Live Demo</a>
+                        <a href="https://github.com/MOHIT5135/RAG_app" class="btn">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- ===================== Achievements ===================== -->
+    <!-- Edit the items below with your real achievements/certifications -->
+    <section class="container section" id="achievements">
+        <div class="section-head">
+            <span class="section-eyebrow">Milestones</span>
+            <h2 class="section-title">Achievements</h2>
+        </div>
+        <div class="achievements-list">
+            <div class="achievement-card">
+                <i class="fa-solid fa-language"></i>
+                <div>
+                    <h3>JLPT N3</h3>
+                    <p>Cleared the N4, and now appeared for the Japanese Language Proficiency Test N3 (July 2026) as part of a
+                        long-term goal to work as a developer in Japan.</p>
+                </div>
+            </div>
+            <div class="achievement-card">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <div>
+                    <h3>Shipped RAGify AI to Production</h3>
+                    <p>Migrated the retrieval pipeline from ChromaDB to MongoDB Atlas Vector Search and
+                        deployed the full stack (Render + Netlify).</p>
+                </div>
+            </div>
+            
+            <!-- Add more achievement-card blocks here, e.g. hackathons, certifications, LeetCode milestones -->
+        </div>
+    </section>
+
+    <!-- ===================== Contact ===================== -->
+    <section class="container section" id="contact">
+        <div class="section-head">
+            <span class="section-eyebrow">Let's talk</span>
+            <h2 class="section-title">Contact</h2>
+        </div>
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p><i class="fa-solid fa-envelope"></i> mohitk87975@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 96365 67830, Whatsapp (+91 7891092943)</p>
+                <p><i class="fa-solid fa-location-dot"></i> Alwar, Rajasthan, India</p>
+                <div class="social">
+                    <a href="https://www.instagram.com/conqueror5135/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mohit-kumar-774489366/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/MOHIT5135"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://leetcode.com/u/zuntB2xyPB/"><i class="fa-brands fa-leetcode"></i></a>
+                </div>
+            </div>
+            <form class="contact-form" id="contact-form" action="https://formspree.io/f/xaewjwyy">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn active">Send Message</button>
+                <span id="form-msg"></span>
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <p>&copy; 2026 Mohit Kumar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
