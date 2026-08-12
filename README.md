@@ -2,7 +2,7 @@
 
 Welcome to the source code of my personal developer portfolio! This site showcases my background as a Software Engineer, highlighting my technical skills, projects, and milestones.
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Portfolio-007CED?style=for-the-badge&logo=netlify&logoColor=white)](https://YOUR-NETLIFY-SITE-NAME.netlify.app)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Portfolio-007CED?style=for-the-badge&logo=netlify&logoColor=white)](https://mohitprotfolio.netlify.app/)
 
 ---
 
