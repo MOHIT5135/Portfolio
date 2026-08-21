@@ -1,5 +1,5 @@
 html{
-    scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 *{
     padding: 0;
@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     width: 100% ;
     background-color: hsl(0, 0%, 90%);
 }
@@ -68,8 +68,9 @@ nav{
     display: none;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-
+    align-items: stretch;
+    transform: translateZ(0);
+    will-change: transform;
 }
 .sidebar li{
     list-style: none;
@@ -102,6 +103,7 @@ nav{
 /*--------------------------- Content ------------------------------------*/
 .content{
     display: flex;
+    align-items: center;
 }
 .container .pic{
     width: 18.75rem;
@@ -266,7 +268,7 @@ nav{
     }
 }
 /* for container */
-@media(max-width:426px){
+@media(max-width:768px){
     .content{
         padding: 1.5rem 0;
         flex-direction: column;
